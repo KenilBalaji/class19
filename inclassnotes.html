@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In Class - JS</title>
+</head>
+<body>
+    <h1 id="h1"></h1>
+    <p id="p1"></p>
+    <p id="result"></p>
+    <h3>To See a console.log program click inspect => next click on console and program result will pop up!</h3>
+    <script>
+        document.getElementById('h1').innerText = "Hello World!";
+        document.getElementById('p1').innerText = "This is my sixth JS code!";
+        var num1 = 10;
+        var num2 = 20;
+        var sum = num1 + num2;
+        input = prompt("Enter your name:");
+        var greeting = "Welcome, " + input + "!";
+        alert(greeting);
+        var resultText = "The sum of " + num1 + " and " + num2 + " is: " + sum;
+        document.getElementById('result').innerText = resultText;
+        var x,y,z;
+        x=5;
+        y=10;
+        z=x*y;
+        console.log("The product of x and y is: " + z);
+    </script>
+</body>
+</html>
